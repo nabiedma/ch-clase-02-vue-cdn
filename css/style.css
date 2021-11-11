@@ -9,3 +9,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}

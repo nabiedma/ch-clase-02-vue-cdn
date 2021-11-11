@@ -12,11 +12,10 @@
 <body>
     <div id="app">
         <div>
+            <label for="nombre">Tu nombre será:</label>
+            <input type="text" name="nombre" v-model="nombre">
             <h1>Bienvenido, {{ nombre }}</h1>
-            <h2>Tu edad es: {{ edad }}</h2>
-            <p>
-              Actualmente te encontrás en: <strong>{{ ubicacion }}</strong>
-            </p>  
+            <button v-on:click="darVueltaNombre">Da vuelta tu nombre!</button>
         </div>
     </div>
 </body>
