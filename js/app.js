@@ -2,10 +2,11 @@ var app = new Vue({
     el: '#app',
     data: {
         nombre: "",
+        link: "https://www.google.com.ar"
     },
     methods: {
-        darVueltaNombre: function () {
-            this.nombre = this.nombre.split('').reverse().join('')
+        alerta() {
+            alert('Esto es una ALERTA!')
         }
     }
   })

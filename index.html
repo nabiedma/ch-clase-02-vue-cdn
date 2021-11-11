@@ -12,10 +12,11 @@
 <body>
     <div id="app">
         <div>
+            <a :href="link">Ir a Google</a>
             <label for="nombre">Tu nombre será:</label>
             <input type="text" name="nombre" v-model="nombre">
             <h1>Bienvenido, {{ nombre }}</h1>
-            <button v-on:click="darVueltaNombre">Da vuelta tu nombre!</button>
+            <button v-on:click="alerta()">Mostrá tu nombre!</button>
         </div>
     </div>
 </body>
